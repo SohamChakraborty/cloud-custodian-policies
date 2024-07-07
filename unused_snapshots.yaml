@@ -1,0 +1,6 @@
+policies:
+  - name: snapshot-unused
+    resource: ebs-snapshot
+    filters:
+      - type: unused
+        value: true

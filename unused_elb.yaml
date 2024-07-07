@@ -1,0 +1,5 @@
+policies:
+  - name: elb-delete-unused
+    resource: elb
+    filters:
+      - Instances: []

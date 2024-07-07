@@ -1,0 +1,7 @@
+policies:
+  - name: ebs-snapshots-week-old
+    resource: ebs-snapshot
+    filters:
+      - type: age
+        days: 180
+        op: ge

@@ -1,0 +1,6 @@
+policies:
+  - name: list-old-AMI
+    resource: ami
+    filters:
+      - type: unused
+        value: true
